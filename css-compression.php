@@ -29,19 +29,10 @@ function compress_css( $contents ) {
 
 	// Replace specific characters.
 
-	$contents = str_replace( chr( 9 ), '', $contents );
-	$contents = str_replace( chr( 10 ), '', $contents );
-	$contents = str_replace( chr( 13 ), '', $contents );
-	$contents = str_replace( ': ', ':', $contents );
-	$contents = str_replace( ' :', ':', $contents );
-	$contents = str_replace( ' {', '{', $contents );
-	$contents = str_replace( '{ ', '{', $contents );
-	$contents = str_replace( '} ', '}', $contents );
-	$contents = str_replace( ' }', '}', $contents );
-	$contents = str_replace( ', ', ',', $contents );
-	$contents = str_replace( ' ,', ',', $contents );
-	$contents = str_replace( '; ', ';', $contents );
-	$contents = str_replace( ' ;', ';', $contents );
+	$search  = array( chr( 9 ), chr( 10 ), chr( 13 ), ': ', ' :', ' {', '{ ', '} ', ' }', ', ', ' ,', '; ', ' ;' );
+	$replace = array( '', '', '', ':', ':', '{', '{', '}', '}', ',', ',', ';', ';' ); 
+
+	$contents = str_replace( $search, $replace, $contents );
 	
 	// Reduce hex numbers.
 
