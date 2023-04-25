@@ -1,12 +1,14 @@
-# CSS Compressor
+# CompreSS
 
 🗜️ PHP script to compress CSS
 
-Initially written many years ago and hosted as an online tool on my websute, this is a script for ad-hoc CSS compression which I'm turning into a modern, fully featured version. It's GPL licensed, so feel free to copy, clone, do whatever you wish with it.
+Used, many moons ago, for an online CSS compression tool, the script has been saved and now made available for public use. 
+
+Open source, available under the GNU v2 license. 
 
 Expect further notes and content to be uploaded over the coming months.
 
-If you have any thoughts on good compression techniques, please let me know in the issues.
+If you have any thoughts on good compression techniques, please let me know.
 
 ## Instructions for use
 
