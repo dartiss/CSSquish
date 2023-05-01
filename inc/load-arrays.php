@@ -146,7 +146,6 @@ $switch_color = array(
 );
 
 $search_group1 = array(
-	chr( 9 ),
 	': ',
 	' :',
 	' {',
@@ -163,7 +162,6 @@ $search_group1 = array(
 );
 
 $replace_group1 = array(
-	'',
 	':',
 	':',
 	'{',
