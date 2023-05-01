@@ -1,5 +1,7 @@
 # CompreSS
 
+<img src="https://img.shields.io/github/v/release/dartiss/CompreSS">&nbsp;<img src="https://img.shields.io/github/last-commit/dartiss/CompreSS">
+
 🗜️ PHP script to compress CSS
 
 Used, many moons ago, for an online CSS compression tool, the script has been saved and now made available for public use. 
@@ -15,4 +17,3 @@ Please see the FAQ for [the changelog](https://github.com/dartiss/CompreSS/wiki/
 ## Instructions for use
 
 The script function is named `compress_css` and has just one parameter - the CSS script that you wish to compress. It will return the compressed CSS.
-<p align="right"><img src="https://img.shields.io/github/v/release/dartiss/CompreSS">&nbsp;<img src="https://img.shields.io/github/last-commit/dartiss/CompreSS"></p>
