@@ -1,6 +1,7 @@
 # CompreSS
 
-<img src="https://img.shields.io/github/v/release/dartiss/CompreSS">&nbsp;<img src="https://img.shields.io/github/last-commit/dartiss/CompreSS">
+<img src="https://img.shields.io/github/v/release/dartiss/CompreSS">&nbsp;<img src="https://img.shields.io/github/last-commit/dartiss/CompreSS">&nbsp;<img src="https://img.shields.io/github/issues/dartiss/CompreSS">
+
 
 🗜️ PHP script to compress CSS
 
