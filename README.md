@@ -2,6 +2,7 @@
 <p align="right"><img src="https://img.shields.io/github/v/release/dartiss/CompreSS">&nbsp;<img src="https://img.shields.io/github/last-commit/dartiss/CompreSS"></p>
 🗜️ PHP script to compress CSS
 
+
 Used, many moons ago, for an online CSS compression tool, the script has been saved and now made available for public use. 
 
 Open source, available under the GNU v2 license. 
