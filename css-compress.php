@@ -5,7 +5,7 @@
  * Compress a CSS script.
  *
  * @package  css-compress
- * @version  0.1
+ * @version  0.1.1
  * 
  * @param  string $contents  CSS to be compressed.
  * @param  array  $paras     Array of passed parameters.
@@ -42,11 +42,10 @@ function compress_css( $contents, $paras = array( 'test' => false ) ) {
 
 	// Replace specific characters.
 
-	$contents = str_replace( $char_search, $char_replace, $contents );
+	$contents = str_replace( $search_group1, $replace_group1, $contents );
 
 	if ( false == $paras['test'] ) {
-		$contents = str_replace( chr( 10 ), '', $contents );
-		$contents = str_replace( chr( 13 ), '', $contents );
+		$contents = str_replace( $search_group2, $replace_group2, $contents );
 	}
 
 	// Convert RGB decimal numbers to hex.

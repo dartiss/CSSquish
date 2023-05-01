@@ -145,7 +145,7 @@ $switch_color = array(
 	array( 'White', '#FFF' ), 
 );
 
-$char_search = array(
+$search_group1 = array(
 	chr( 9 ),
 	': ',
 	' :',
@@ -157,9 +157,12 @@ $char_search = array(
 	' ,',
 	'; ',
 	' ;',
+	'::',
+	'background:none;',
+	'background:transparent;',
 );
 
-$char_replace = array(
+$replace_group1 = array(
 	'',
 	':',
 	':',
@@ -171,4 +174,19 @@ $char_replace = array(
 	',',
 	';',
 	';',
+	':',
+	'background:0 0;',
+	'background:0 0;',
+);
+
+$search_group2 = array(
+	chr( 10 ),
+	chr( 13 ),
+	chr( 9 ),
+);
+
+$replace_group2 = array(
+	'',
+	'',
+	'',
 );
