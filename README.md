@@ -1,6 +1,6 @@
-# CompreSS
+# CSSquish
 
-<img src="https://img.shields.io/github/v/release/dartiss/CompreSS">&nbsp;<img src="https://img.shields.io/github/last-commit/dartiss/CompreSS">&nbsp;<img src="https://img.shields.io/github/issues/dartiss/CompreSS">
+<img src="https://img.shields.io/github/v/release/dartiss/CSSquish">&nbsp;<img src="https://img.shields.io/github/last-commit/dartiss/CSSquish">&nbsp;<img src="https://img.shields.io/github/issues/dartiss/CSSquish">
 
 
 🗜️ PHP script to compress CSS
@@ -13,7 +13,7 @@ Expect further notes and content to be uploaded over the coming months.
 
 If you have any thoughts on good compression techniques, please let me know.
 
-Please see the FAQ for [the changelog](https://github.com/dartiss/CompreSS/wiki/Changelog).
+Please see the FAQ for [the changelog](https://github.com/dartiss/CSSquish/wiki/Changelog).
 
 ## Instructions for use
 
