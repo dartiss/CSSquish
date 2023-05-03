@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/github/v/release/dartiss/CSSquish">&nbsp;<img src="https://img.shields.io/github/last-commit/dartiss/CSSquish">&nbsp;<img src="https://img.shields.io/github/issues/dartiss/CSSquish">
 
 
-🗜️ PHP script to compress CSS
+<img src="hhttps://raw.githubusercontent.com/dartiss/CSSquish/main/assets/icon-128x128.png" align="left">🗜️ PHP script to compress CSS
 
 Used, many moons ago, for an online CSS compression tool, the script has been saved and now made available for public use. 
 
