@@ -16,4 +16,4 @@ Please see the FAQ for [the changelog](https://github.com/dartiss/CSSquish/wiki/
 
 ## Instructions for use
 
-The script function is named `compress_css` and has just one parameter - the CSS script that you wish to compress. It will return the compressed CSS.
+The script function is named `cssquish` and has just one parameter required - a string containing the CSS that you wish to compress. It will return the compressed CSS.

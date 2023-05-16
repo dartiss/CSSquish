@@ -1,6 +1,6 @@
 <?php
 /**
- * CompreSS
+ * CSSquish
  *
  * Compress a CSS script.
  *
@@ -11,7 +11,7 @@
  * @param  array  $paras     Array of passed parameters.
  * @return string            Compressed CSS.
  */
-function compress_css( $contents, $paras = array( 'test' => false ) ) {
+function cssquish( $contents, $paras = array( 'test' => false ) ) {
 
 	include 'inc/load-arrays.php';
 
