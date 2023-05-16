@@ -5,7 +5,7 @@
  * Compress a CSS script.
  *
  * @package  css-compress
- * @version  0.1.1
+ * @version  0.1.2
  * 
  * @param  string $contents  CSS to be compressed.
  * @param  array  $paras     Array of passed parameters.
